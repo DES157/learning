@@ -1,7 +1,16 @@
-# Web
+Web
+===
 
 ---
 
+
+Links
+-----
+
+- [ECS 89H: Beginning Web Programming](http://web.cs.ucdavis.edu/~amenta/s15/ecs89h) (Nina Amenta)
+
+
+---
 
 HTTP, HTTPS
 
@@ -12,15 +21,21 @@ HTTP, HTTPS
 
 
 
-# Authentication 
+Authentication
+--------------
 
-- [OAuth](http://oauth.net/)
+- [OAuth](http://oauth.net)
 
 
 
----
+Languages
+---------
 
-# Tools
+- [PHP](https://php.net)
+
+
+Tools
+-----
 
 ### Python
 
