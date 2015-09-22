@@ -9,6 +9,7 @@ Links
 - [XML Technology](http://www.w3.org/standards/xml)
 - [The XML FAQ](http://xml.silmaril.ie)
 - [Official Markup Validator](https://validator.w3.org)
+- [XML - Managing Data Exchange @Wikibooks](https://en.wikibooks.org/wiki/XML_-_Managing_Data_Exchange)
 
 
 Basics
