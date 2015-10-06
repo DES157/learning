@@ -87,3 +87,4 @@ See here to pick colors by [name](http://www.w3schools.com/cssref/css_colornames
 
 
 
+Along the lines of Markdown is also [HAML](http://haml.info/) for generating (X)HTML. It is primarily Ruby, but also has bindings to Python, etc.
