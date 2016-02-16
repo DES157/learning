@@ -14,11 +14,14 @@ See additional documentation:
 Links
 -----
 
+- [Mozilla Developer Network](https://developer.mozilla.org/en-US/) - great reference, tutorials, and other learning resources!
 - [W3C (World Wide Web Consortium)](http://www.w3.org/)
 - [W3Schools](http://www.w3schools.com/)
 
+##### Learning
 
 - [ECS 89H: Beginning Web Programming](http://web.cs.ucdavis.edu/~amenta/s15/ecs89h) (Nina Amenta)
+- [DevelopPHP](https://www.developphp.com/) - great resource on HTML, CSS, JavaScript, PHP!
 
 
 ---

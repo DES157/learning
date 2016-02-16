@@ -2,9 +2,16 @@ HTML
 ====
 
 
+? Canvas
+? DOM
+
+
 Links
 -----
 
+- [Web Platform Docs](http://docs.webplatform.org/wiki/Main_Page) - official reference!
+
+- [HTML @ Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML) - lots of good guides, references, and tutorials!
 
 
 
