@@ -9,7 +9,32 @@ HTML
 Links
 -----
 
-- [Web Platform Docs](http://docs.webplatform.org/wiki/Main_Page) - official reference!
+##### WHATWG
+
+- [__HTML: The Living Standard (Edition for Web Developers)__](https://developers.whatwg.org/)  
+- [HTML Living Standard](https://html.spec.whatwg.org/multipage/) super detailed for browser developers
+- [](https://spec.whatwg.org/)
+
+##### WebPlatform
+
+- [__Web Platform Docs__](http://docs.webplatform.org/wiki/Main_Page) - good reference!
+
+
+##### W3C
+
+###### Standards
+
+- [Web Design and Applications](https://www.w3.org/standards/webdesign/) 
+- [HTML5 W3C Standard](https://www.w3.org/TR/html5/) [W3C](https://www.w3.org/) fork of WHATWG
+
+###### Learning
+
+- [W3C Developers](https://www.w3.org/developers/)
+    - [W3DevCampus](http://www.w3devcampus.com/)
+    - [W3Cx](https://www.edx.org/school/w3cx) Free online courses from The World Wide Web Consortium (W3C)
+
+
+##### Mozilla
 
 - [HTML @ Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML) - lots of good guides, references, and tutorials!
 
@@ -95,3 +120,9 @@ See here to pick colors by [name](http://www.w3schools.com/cssref/css_colornames
 
 
 Along the lines of Markdown is also [HAML](http://haml.info/) for generating (X)HTML. It is primarily Ruby, but also has bindings to Python, etc.
+
+
+HTML Tools
+----------
+
+> tidy - validate, correct, and pretty-print HTML files
