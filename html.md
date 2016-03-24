@@ -73,7 +73,7 @@ HTML documents must start with a Document Type Declaration ("doctype"). These de
 `<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">`. HTML5 is much simpler: `<!DOCTYPE html>`.
 
 
-*tags* and *attributes* which are name-value pairs (it's a good idea to quote attribute values).
+*tags* and *attributes* which are name-value pairs (it's a good idea to quote attribute values). Note that *element* is a more semantic concept and generally refers to a start tag, end tag, and content.
 
 ```
 <!DOCTYPE html>

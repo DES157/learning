@@ -1,6 +1,9 @@
 CSS
 ===
 
+what are sprites?
+
+
 Links
 -----
 
@@ -13,6 +16,7 @@ Links
 
 - [Sass](http://sass-lang.com/)
 - [Compass](http://compass-style.org/)
+- [less](http://lesscss.org/)
 
 
 Basics
@@ -22,7 +26,7 @@ Styling can be added to HTML elements in 3 ways:
 
 1. Inline - using a __style attribute__ in HTML elements
 2. Internal - using a `<style>` __element__ in the HTML `<head>` section
-3.  External - using one or more __external CSS files__
+3.  External - `<link>` to one or more __external CSS files__
 
 > Use the HTML style attribute for inline styling
 Use the HTML `<style>` element to define internal CSS

@@ -89,13 +89,22 @@ Typically the nvm script is `~/.nvm/nvm.sh` and the node versions path is `~/.nv
 
 #### Commands
 
-`nvm install node`
+    nvm install node
 
-List installed versions: `nvm ls`
+List installed versions:
 
-Activate an installed version: `nvm use <version>`
+    nvm ls/list
 
-Set default node version: `nvm alias default <version>`, e.g. `nvm alias default node`
+Activate an installed version:
+
+    nvm use <version>
+
+Set default node version:
+
+    nvm alias default <version>
+
+e.g. `nvm alias default node`
+
 This sets up a `default` alias which you can see with `nvm alias`. The alias `node` always refers to the latest version. You can also have user defined aliases to make working with versions easier.
 
 `nvm current` displays node version currently in use, and `nvm which <version>` prints path.
@@ -187,10 +196,22 @@ Note: npm sets path for local installs to closet parent directory with `node_pac
 You can link a global package to be available locally using `npm link <package>`. Probably better just to install both locally and globally. However if you wish to make a package you are developing locally available to other packages you can do that by running `npm link` in the package folder to create a global symlink that can be linked elsewhere.
 
 
+
+##### Listing packages
+
+If you just want the ones you installed:
+
+    npm list -g --depth=0
+
 ##### Updating packages
 
-Lists outdated packages: `npm outdated` (as constrained by package.json)
-Update packages: `npm update [-g]`
+Lists outdated packages (as constrained by package.json, or global):
+
+    npm outdated [-g]
+
+Update packages:
+
+    npm update [-g]
 
 ##### Updating npm
 
@@ -200,11 +221,15 @@ This is the new and preferred way, as shown [here](https://docs.npmjs.com/gettin
 
 ##### Using packages
 
-`require("packagename")` for packages installed locally
+For packages installed locally:
+
+    require("packagename")
 
 ##### Maintenance
 
-Clean cache: `npm cache clean`
+Clean cache:
+
+    npm cache clean
 
 `npm prune` will remove local packages which are not dependencies in package.json.
 
