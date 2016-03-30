@@ -37,6 +37,23 @@ vs python?
 
 ---
 
+JavaScript Scope
+----------------
+
+_closures_
+
+    var foo = function() {}
+
+vs
+
+    function bar() {}
+
+##### Reference
+
+- [Everything you wanted to know about JavaScript scope](https://toddmotto.com/everything-you-wanted-to-know-about-javascript-scope/)
+- [Demystifying JavaScript Variable Scope and Hoisting](http://www.sitepoint.com/demystifying-javascript-variable-scope-hoisting/)
+
+
 JavaScript Methods
 ------------------
 
