@@ -42,10 +42,9 @@ Installation
 
 From experience, `brew install node` installs node and npm. It also leaves a `/usr/local/lib/node_modules` directory and an `npm` symlink in `/usr/local/bin` which __stays around even if you uninstall!__
 
-There is also a `nvm` brew package (which seems like the was to go).
-
-Package install, also availabe in brew cask, is another option, and there seem to be pros and cons.
 Installing `node` with brew is fine, but it’s better to install `nvm` with brew, and then use it to install node.
+
+Package install, also available in brew cask, is another option, and there seem to be pros and cons.
 
 If you have `nvm` you can install the latest node+npm by `nvm install node` (`node` is an alias for latest version, and replaces `stable`). This is how you do it if you have installed `nvm` with brew.
 
@@ -53,7 +52,7 @@ Should I add this variable as mentioned [here](https://stackoverflow.com/questio
 `export NODE_PATH='/usr/local/lib/node_modules'`
 Maybe not, I think this is not necessary any more as mentioned in the api [docs](https://nodejs.org/api/modules.html).
 
-There were issues with homebrew npm updating itself but they seem to be fixed, though some suggesting using sudo: `sudo npm install -g npm@latest`. Just install brew nvm and call it good. Another alternative is to install brew node with `--without-npm` option and then use npm install.sh.
+There were issues with homebrew npm updating itself but they seem to be fixed, though some suggesting using sudo: `sudo npm install -g npm@latest`. Just `brew install nvm` and call it good. Another alternative is to `brew install node --without-npm` option and then use npm install.sh.
 
 
 ##### Install nvm with Brew
@@ -70,36 +69,77 @@ Now you can install node as discussed [below](#Using_nvm). Check, but I believe 
 Using nvm
 ---------
 
+Nvm modifies paths to switch versions!
+
 ### Installing nvm on OS X
 
 1. Install via Homebrew (see above). Probably a good option, and also conveniently installs the bash completions.
-
 2. The [`nvm`](https://github.com/creationix/nvm) GitHub page describes how to install by cloning the repo, or with a script that does it for you and installs to `~/.nvm`.
-
 3. `nvm` can also be installed with `npm` as show [here](https://www.npmjs.com/package/nvm). Advantages unclear.
 
 
 ### nvm Quickstart
 
-
 #### Paths of interest
 
 Typically the nvm script is `~/.nvm/nvm.sh` and the node versions path is `~/.nvm`.
 
+    nvm debug
 
 #### Commands
 
-    nvm install node
+##### Installing versions
 
-List installed versions:
+###### list available versions
 
-    nvm ls/list
+    nvm ls-remote
+    nvm ls-remote --lts  # just list lts versions
 
-Activate an installed version:
+###### install a version
+
+    nvm install node  # install newest version
+    nvm install --lts  # install latest
+
+Note: set the `default` alias to the new version
+
+###### Install a new version of node and migrate npm packages
+
+    nvm install node --reinstall-packages-from=node
+
+Note: `--reinstall-packages-from` uses `nvm reinstall-packages`, also there is trickery so this should work even if your current version is not the latest)
+
+###### uninstall a version
+
+    nvm uninstall <version>
+
+##### Managing versions
+
+###### list installed versions
+
+    nvm ls
+
+###### activate an installed version
 
     nvm use <version>
 
-Set default node version:
+
+###### display node version currently in use
+
+    nvm current
+
+###### print path to executable
+
+    nvm which <version>
+
+##### Aliases
+
+The primary aliases are `default` (set by user to default version) and `node` (always latest version).
+
+###### list aliases
+
+    nvm alias
+
+###### set default node version
 
     nvm alias default <version>
 
@@ -107,20 +147,14 @@ e.g. `nvm alias default node`
 
 This sets up a `default` alias which you can see with `nvm alias`. The alias `node` always refers to the latest version. You can also have user defined aliases to make working with versions easier.
 
-`nvm current` displays node version currently in use, and `nvm which <version>` prints path.
+
 
 `nvm deactivate` seems to reverse `nvm use`, and takes node's bin out of the PATH.
 
 `nvm unload` removes nvm itself from the shell (not clear how it was actually added)
 
 
-##### Install a new version of node and migrate npm packages:
 
-    nvm install node --reinstall-packages-from=node
-
-Note: will do nothing if you are using current version. But what about when there is a new npm but not new node? Does that happen?
-
-I'm guessing using `--reinstall-packages-from` is equivalent to doing `nvm reinstall-packages <version>`.
 
 ----------------------------------------
 
@@ -135,12 +169,11 @@ Exit [REPL](https://nodejs.org/api/repl.html) Terminal (Read-Eval-Print-Loop) by
 Using npm
 ---------
 
+Npm packages can be installed either *locally* or *globally*. Npm defaults to installing packages locally, i.e. in a `node_modules` directory in your current directory. Use the `-g` flag to install globally.
+
 It's controversial, but Bower does similar things as npm. See also Browserify. See [What is the difference between Bower and npm?](https://stackoverflow.com/questions/18641899/what-is-the-difference-between-bower-and-npm). Seems like Bower focuses on the front-end, but npm+browserify do the same thing and may be preferable.
 
 Node seems to use `/usr/local`, which is why coexistence with brew can be tricky. Verify npm's directory by `npm config get prefix`.
-
-Npm packages can be installed either locally or globally. Npm defaults to installing packages locally, i.e. in a `node_modules` directory in your current directory. Use the `-g` flag to install globally.
-
 
 ### npm Links
 
@@ -164,7 +197,7 @@ See the [FAQ](https://docs.npmjs.com/misc/faq) for the difference between a _pac
 
 `npm help <term>`
 
-`npm hel-search <text>`
+`npm help-search <text>`
 
 `npm faq`
 
@@ -173,21 +206,27 @@ See the [FAQ](https://docs.npmjs.com/misc/faq) for the difference between a _pac
 
 Packages that you will `require()` should be installed locally, but binary packages should tend to be installed globally so the executables are available on PATH. See [Global vs Local installation](https://nodejs.org/en/blog/npm/npm-1-0-global-vs-local-installation/) on the Node blog.
 
-__Search__ for packages with `npm search`.
+###### search for packages with
 
-__List__ installed packages with `nmp ls [-g]`.
+    npm search
 
-###### Installing globally
+###### list installed packages
+
+    nmp ls [-g]
+    npm list -g --depth=0  # just the top level ones you installed
+
+###### installing globally
 
     npm install <package> -g
+    npm uninstall <pacakge> -g
 
-###### Installing Locally
+###### installing locally
 
     npm install <package>
 
-Using a [`package.json`](https://docs.npmjs.com/getting-started/using-a-package.json) file is the best way to manage locally installed npm packages. Start out with `npm init` and install packages as `npm install <package> --save` to add it to local `dependencies`. Then you can simply run `npm install` and it will download latest versions of all dependencies. Check but it seems that `npm install -g` does the same things for globals and is useful if you have installed a new version of node (when to use? perhaps if you don't ) 
+Using a [`package.json`](https://docs.npmjs.com/getting-started/using-a-package.json) file is the best way to manage locally installed npm packages. Start out with `npm init` and install packages as `npm install <package> --save` to add it to local `dependencies`. Then you can simply run `npm install` and it will download latest versions of all dependencies. Check but it seems that `npm install -g` does the same things for globals and is useful if you have installed a new version of node. Careful! I think that if you `npm install -g` without parameters in a directory that has local stuff installed (check if it looks for node_packages or packages.json) then it will actually install the packages you are working on globally!
 
-Look into the fine difference and use case for npm install and npm update.
+Look into the fine difference and use case for `npm install` and `npm update`.
 
 Otherwise packages are just installed into the project's `node_packages` directory.
 
@@ -197,23 +236,18 @@ You can link a global package to be available locally using `npm link <package>`
 
 
 
-##### Listing packages
 
-If you just want the ones you installed:
+##### Updating
 
-    npm list -g --depth=0
-
-##### Updating packages
-
-Lists outdated packages (as constrained by package.json, or global):
+###### list outdated packages (as constrained by package.json, or global):
 
     npm outdated [-g]
 
-Update packages:
+###### update packages
 
     npm update [-g]
 
-##### Updating npm
+###### update npm
 
 This is the new and preferred way, as shown [here](https://docs.npmjs.com/getting-started/installing-node).
 
@@ -225,7 +259,7 @@ For packages installed locally:
 
     require("packagename")
 
-##### Maintenance
+##### npm maintenance
 
 Clean cache:
 
