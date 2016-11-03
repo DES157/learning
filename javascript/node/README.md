@@ -294,3 +294,7 @@ These commands will show the directories used for local and global installs:
 The docs on configuring npm also give specs on [package.json](https://docs.npmjs.com/files/package.json). A nice interactive example is [here](http://browsenpm.org/package.json).
 
 Compatible node and npm versions can be specified in `engines`. Did `engine` work at some point? How to develop in multiple versions with nvm?
+
+#### Publishing node modules
+
+You need to have a user on the npm site (setup on site as `npm adduser`), and authorise (`npm login`). Then you can successfully run `npm whoami`.

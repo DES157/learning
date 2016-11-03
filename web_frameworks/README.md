@@ -3,19 +3,23 @@ Web Frameworks
 
 Including mobile.
 
+##### Web frameworks
 
-? categories: CMS, other?
-
-- [Django](https://www.djangoproject.com)
-- Flask (Python)
-- Bottle (Python)
+- [Django](https://www.djangoproject.com) (Python)
+- [Flask](http://flask.pocoo.org/) (Python)
+- [Bottle](http://bottlepy.org/docs/dev/) (Python)
 - [Pyramid/Pylons](http://www.pylonsproject.org/projects/pyramid/about) (Python)
 
-- [Drupal](https://www.drupal.org) ?
+###### Etc
 
-- [Firebase](https://www.firebase.com/) - I just stumbled upon but looks cool
+- [Meteor](https://www.meteor.com/) (JavaScript) for web, mobile, and desktop!
+- [Firebase](https://firebase.google.com/) - web and app platform, joined google
 
+##### CMS
 
+- [Drupal](https://www.drupal.org) (CMS in PHP) - there is a drupal.com but I'm not sure what it's about
 
+##### Build tools
 
-- Gradle - something related to Android Studio or something?
+- [Gradle](https://gradle.org/) - build tool, related to Android Studio or something?
+
