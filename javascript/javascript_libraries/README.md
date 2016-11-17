@@ -1,8 +1,6 @@
 Cool JavaScript Libraries
 =========================
 
-[TOC]
-
 
 Links
 -----
