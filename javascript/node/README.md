@@ -71,6 +71,16 @@ Using nvm
 
 Nvm modifies paths to switch versions!
 
+
+###### alternatives to nvm
+
+- [n](https://github.com/tj/n)
+- [nave](https://github.com/isaacs/nave)
+- [avn](https://github.com/wbyoung/avn)
+- [nodenv](https://github.com/nodenv/nodenv) is like rbenv for node, see it's list of [alternatives](https://github.com/nodenv/nodenv/wiki/Alternatives)
+- [nodebrew](https://github.com/hokaccha/nodebrew)
+
+
 ### Installing nvm on OS X
 
 1. Install via Homebrew (see above). Probably a good option, and also conveniently installs the bash completions.
@@ -113,6 +123,8 @@ Note: `--reinstall-packages-from` uses `nvm reinstall-packages`, also there is t
     nvm uninstall <version>
 
 ##### Managing versions
+
+Look into `.nvmrc`. Note some version managers (including avn and nodenv, but not nvm) support `.node-version` file (akin to `.ruby-version`).
 
 ###### list installed versions
 
@@ -182,6 +194,8 @@ Node seems to use `/usr/local`, which is why coexistence with brew can be tricky
 - [npmsearch](https://npmsearch.com/)
 - [browsenpm](http://browsenpm.org/)
 - [browsenpm help](http://browsenpm.org/help)
+
+###### howto
 
 - [HowToNode](http://howtonode.org/)
 - [A Beginner’s Guide to npm](http://www.sitepoint.com/beginners-guide-node-package-manager/)
