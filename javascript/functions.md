@@ -1,5 +1,14 @@
 # JavaScript Functions
 
+## Defining Functions
+
+* function statement (function declaration)
+* function expression (incl. named function expressions and anonymous function expressions)
+* arrow function expression (`=>`)
+
+I thought I'd written about these elsewhere but can't find it!
+
+
 ## Function Basics
 
 function scope...
