@@ -1,0 +1,136 @@
+
+Chrome:
+remove autosuggest url -> Shift+Del
+
+
+
+
+
+javascript variable scope:
+javascript globals scope is complete JavaScript environmnet
+html globals scope is window object
+review for what this means
+
+js scope without var assignment become auto globals?
+review what this means for form codepen
+
+
+
+
+
+
+Good MOOC
+udacity
+
+
+
+
+
+__CSS Grid__ Layout / Grid-View
+
+
+css:
+[class*='foo-'] select 
+
+
+  display: -ms-grid; /* prefix for IE 10 */
+  display: grid; /* or inline-grid */
+
+
+normally: width + padding + border = actual width of an element
+height + padding + border = actual height of an element
+  box-sizing: border-box; //padding and border are included in the total width and height of the elements, so elements stay the size you want, could be good to apply to everything in css!
+
+ 	* {
+    	box-sizing: border-box;
+	} 
+
+  	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+ 
+
+
+
+  float: left //element should be taken from the normal flow and placed along the left or right side of its container, other elements are placed like they didn't exist, which is why we clear the things after  eg can be used to make a ul horizontal by making li float left, also seems to fix when something crowds 
+
+inline-block -> like floatcan now specify width/height,...and other along form the ride?
+
+- inline: ignore width and height, floating turns into block element, floating elements should have width/height specified (does this also apply to floating block-level elements?)
+- block-level: allows margin and padding, will expand so there are times when you won't want to set these
+
+
+margin?
+padding?
+
+
+
+
+Responsive Web Design
+
+
+Viewport
+https://developers.google.com/speed/docs/insights/ConfigureViewport
+
+meta tag (html5)
+<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+js Date()\
+
+
+
+
+CSS
+
+* {}, html {} which higher in hierarchy?
+
+:after
+
+
+
+px is css relative kinda
+
+
+id vs classes
+
+<main>/once per page and can’t be used as a descendant of an <article>, <aside>, <footer>, <header>, or <nav> element. (and it's not a sectioning element!)
+
+sections and headers, pre html5 the rule was only one h1, previously h1, etc tags implied a new section, now 
+so body, then sectioning content, and the first heading tag in sectioning content is the label for tha tsection, note outside of sectioning elements headings are still interpreted as start of new section.
+
+
+
+
+
+sectioning root = can have its own outline, but the sections and headings inside it does not contribute to the outline of its ancestor
+
+0. body - special case
+1. blockquote
+2. figure
+3. td
+4. details
+5. dialog
+6. fieldset
+7. ...?
+
+4 sectioning elements (define "content sections"):
+
+1. article (html5)
+2. section (html5)
+3. nav (html5)
+4. aside (html5)
+
+
+headers and footers mark up content within 
+
+http://w3c.github.io/html/sections.
+
+
+
+attributes...
+class
+id
+name
