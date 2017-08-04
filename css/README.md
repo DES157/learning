@@ -91,3 +91,13 @@ Use `id` to address a single element (`element#id`). Use `class` to address grou
 display
 
 position
+
+---
+
+## Other
+
+#### CSS Transformations
+
+* [CSS Transforms](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transforms)
+* [Intro to CSS 3D transforms](https://desandro.github.io/3dtransforms/)
+* [Tidiv](http://tridiv.com/) web based 3D shape editor for CSS
