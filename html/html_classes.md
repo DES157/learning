@@ -1,11 +1,4 @@
-HTML Classes
-============
-
-
-
-
-
-
+# HTML Classes
 
 
 ##### Add/remove classes using JavaScript or jQuery

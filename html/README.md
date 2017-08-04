@@ -1,37 +1,36 @@
-HTML
-====
+# HTML
+
 
 
 ? Canvas
 ? DOM
 
 
-Links
------
+## Links
 
 ##### WHATWG
 
-- [__HTML: The Living Standard (Edition for Web Developers)__](https://developers.whatwg.org/)  
-- [HTML Living Standard](https://html.spec.whatwg.org/multipage/) super detailed for browser developers
-- [](https://spec.whatwg.org/)
+* [__HTML: The Living Standard (Edition for Web Developers)__](https://developers.whatwg.org/)  
+* [HTML Living Standard](https://html.spec.whatwg.org/multipage/) super detailed for browser developers
+* [WHATWG (Web Hypertext Application Technology Working Group)](https://spec.whatwg.org/)
 
 ##### WebPlatform
 
-- [__Web Platform Docs__](http://docs.webplatform.org/wiki/Main_Page) - good reference!
+* [__Web Platform Docs__](http://docs.webplatform.org/wiki/Main_Page) - good reference!
 
 
 ##### W3C
 
 ###### Standards
 
-- [Web Design and Applications](https://www.w3.org/standards/webdesign/) 
-- [HTML5 W3C Standard](https://www.w3.org/TR/html5/) [W3C](https://www.w3.org/) fork of WHATWG
+* [Web Design and Applications](https://www.w3.org/standards/webdesign/) 
+* [HTML5 W3C Standard](https://www.w3.org/TR/html5/) [W3C](https://www.w3.org/) fork of WHATWG
 
 ###### Learning
 
-- [W3C Developers](https://www.w3.org/developers/)
-    - [W3DevCampus](http://www.w3devcampus.com/)
-    - [W3Cx](https://www.edx.org/school/w3cx) Free online courses from The World Wide Web Consortium (W3C)
+* [W3C Developers](https://www.w3.org/developers/)
+    * [W3DevCampus](http://www.w3devcampus.com/)
+    * [W3Cx](https://www.edx.org/school/w3cx) Free online courses from The World Wide Web Consortium (W3C)
 
 
 ##### Mozilla
@@ -41,8 +40,7 @@ Links
 
 
 
-HTML Standards
---------------
+## HTML Standards
 
 ### HTML
 
@@ -66,8 +64,7 @@ After HTML4, but never really caught on.  HTML5 is the new thing.
 
 ***
 
-HTML Basics
------------
+## HTML Basics
 
 HTML documents must start with a Document Type Declaration ("doctype"). These declare a Document Type Definition (DTD) to allow for parsing and validation by SGML tools. For HTML 4 (strict version of HTML 4.01) this would be:
 `<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">`. HTML5 is much simpler: `<!DOCTYPE html>`.
@@ -75,17 +72,15 @@ HTML documents must start with a Document Type Declaration ("doctype"). These de
 
 *tags* and *attributes* which are name-value pairs (it's a good idea to quote attribute values). Note that *element* is a more semantic concept and generally refers to a start tag, end tag, and content.
 
-```
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>This is a title</title>
-  </head>
-  <body>
-    <p>Hello world!</p>
-  </body>
-</html>
-```
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <title>This is a title</title>
+      </head>
+      <body>
+        <p>Hello world!</p>
+      </body>
+    </html>
 
 ### Headings
 
@@ -96,16 +91,17 @@ HTML documents must start with a Document Type Declaration ("doctype"). These de
 ### Misc
 
 ###### line breaks
+
 `<br>`
 
 ###### comments
+
 `<!-- This is a comment -->`
 
 
 ***
 
-Quick Answers
--------------
+## Quick Answers
 
 ##### coloring text
 
@@ -122,7 +118,6 @@ See here to pick colors by [name](http://www.w3schools.com/cssref/css_colornames
 Along the lines of Markdown is also [HAML](http://haml.info/) for generating (X)HTML. It is primarily Ruby, but also has bindings to Python, etc.
 
 
-HTML Tools
-----------
+## HTML Tools
 
 > tidy - validate, correct, and pretty-print HTML files

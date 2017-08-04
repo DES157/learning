@@ -1,19 +1,16 @@
-XML
-===
+# XML
 
 
-Links
------
+## Links
 
-- [XML Home Page](http://www.w3.org/XML)
-- [XML Technology](http://www.w3.org/standards/xml)
-- [The XML FAQ](http://xml.silmaril.ie)
-- [Official Markup Validator](https://validator.w3.org)
-- [XML - Managing Data Exchange @Wikibooks](https://en.wikibooks.org/wiki/XML_-_Managing_Data_Exchange)
+* [XML Home Page](http://www.w3.org/XML)
+* [XML Technology](http://www.w3.org/standards/xml)
+* [The XML FAQ](http://xml.silmaril.ie)
+* [Official Markup Validator](https://validator.w3.org)
+* [XML - Managing Data Exchange @Wikibooks](https://en.wikibooks.org/wiki/XML_-_Managing_Data_Exchange)
 
 
-Basics
-------
+## Basics
 
 > An xml _document_ contains one or more _elements_, which are delimited by start and end _tags_.
 > The first element in every xml document is called the _root_ element.
@@ -28,24 +25,23 @@ Basics
 
 
 
-Schema
-------
+## Schema
 
 
-Bindings
---------
+## Bindings
+
 
 ### [Python](https://wiki.python.org/moin/PythonXml)
 
 Working with [XML in Python](http://www.diveintopython3.net/xml.html).
 
-- [`untangle`](https://github.com/stchris/untangle)
-- [`xmltodict`](https://github.com/martinblech/xmltodict)
-- `lxml`
-- `PyXML` (appears deprecated)
+* [`untangle`](https://github.com/stchris/untangle)
+* [`xmltodict`](https://github.com/martinblech/xmltodict)
+* `lxml`
+* `PyXML` (appears deprecated)
 
 MiniDom and ElementTree are in standard library but prefer newer pythonic packages.
 
 ### R
 
-- [`XML`](http://cran.r-project.org/web/packages/XML)
+* [`XML`](http://cran.r-project.org/web/packages/XML)

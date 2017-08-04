@@ -1,33 +1,29 @@
-Web
-===
+# Web
 
----
 
 See additional documentation:
 
-- [HTML](html.html)
-- [CSS](css.html)
-- [XML](xml.html)
-- [JSON](json.html)
+* [HTML](html)
+* [CSS](css)
+* [XML](etc/xml.md)
+* [JSON](javascript/json.md)
 
 
-Links
------
+## Links
 
-- [Mozilla Developer Network](https://developer.mozilla.org/en-US/) - great reference, tutorials, and other learning resources!
-- [W3C (World Wide Web Consortium)](http://www.w3.org/)
-- [W3Schools](http://www.w3schools.com/)
+* [Mozilla Developer Network](https://developer.mozilla.org/en-US/) - great reference, tutorials, and other learning resources!
+* [W3C (World Wide Web Consortium)](http://www.w3.org/)
+* [W3Schools](http://www.w3schools.com/)
 
 ##### Learning
 
-- [ECS 89H: Beginning Web Programming](http://web.cs.ucdavis.edu/~amenta/s15/ecs89h) (Nina Amenta)
-- [DevelopPHP](https://www.developphp.com/) - great resource on HTML, CSS, JavaScript, PHP!
+* [ECS 89H: Beginning Web Programming](http://web.cs.ucdavis.edu/~amenta/s15/ecs89h) (Nina Amenta)
+* [DevelopPHP](https://www.developphp.com/) - great resource on HTML, CSS, JavaScript, PHP!
 
 
 ---
 
-HTTP
-----
+## HTTP
 
 > HTTP defines methods (sometimes referred to as verbs) to indicate the desired action to be performed on the identified resource. What this resource represents, whether pre-existing data or data that is generated dynamically, depends on the implementation of the server. Often, the resource corresponds to a file or the output of an executable residing on the server. The HTTP/1.0 specification[12] defined the GET, POST and HEAD methods and the HTTP/1.1 specification[13] added 5 new methods: OPTIONS, PUT, DELETE, TRACE and CONNECT
 
@@ -80,8 +76,7 @@ HEAD | Return only the response headers and no response body. | Safe
 
 `POST` `GET` ...
 
-Protocols
----------
+## Protocols
 
 ### SOAP
 
@@ -89,21 +84,20 @@ Protocols
 
 REST = Representational State Transfer
 
-A simpler alterative to SOAP. Typically uses HTTP, and was developed in parallel with HTTP 1.1.
+A simpler alternative to SOAP. Typically uses HTTP, and was developed in parallel with HTTP 1.1.
 
-- [RESTful Web Services: A Tutorial](http://www.drdobbs.com/web-development/restful-web-services-a-tutorial/240169069)
-- [Learn REST: A Tutorial](http://rest.elkstein.org/)
-- [RESTful Web Services: The Basics](http://www.ibm.com/developerworks/library/ws-restful/)
+* [RESTful Web Services: A Tutorial](http://www.drdobbs.com/web-development/restful-web-services-a-tutorial/240169069)
+* [Learn REST: A Tutorial](http://rest.elkstein.org/)
+* [RESTful Web Services: The Basics](http://www.ibm.com/developerworks/library/ws-restful/)
 
 
 
-- stateless
-- 
+* stateless
+* 
 
-Authentication
---------------
+## Authentication
 
-- [OAuth](http://oauth.net)
+* [OAuth](http://oauth.net)
 
 
 
@@ -111,10 +105,9 @@ Authentication
 
 ***
 
-Languages
----------
+## Languages
 
-- [PHP](https://php.net)
+* [PHP](https://php.net)
 
 
 Tools
@@ -122,11 +115,11 @@ Tools
 
 ### Python
 
-- [Requests](http://python-requests.org)
+* [Requests](http://python-requests.org)
 
 ### R
 
-- [RCurl](http://www.omegahat.org/RCurl)
-- `utils::download.file()` : `method = "libcurl"` is optionally supported as from R 3.2.0
+* [RCurl](http://www.omegahat.org/RCurl)
+* `utils::download.file()` : `method = "libcurl"` is optionally supported as from R 3.2.0
 
-- [Getting Data from the Web with R (Gaston Sanchez)](http://gastonsanchez.com/work/webdata)
+* [Getting Data from the Web with R (Gaston Sanchez)](http://gastonsanchez.com/work/webdata)

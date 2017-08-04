@@ -1,26 +1,23 @@
-CSS
-===
+# CSS
 
 what are sprites?
 
 
-Links
------
+## Links
 
-- [CSS @ Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- [HTML Styles - CSS @ w3schools](http://www.w3schools.com/html/html_css.asp)
-- [CSS Tutorial @ w3schools](http://www.w3schools.com/css/default.asp)
-- [CSS Reference](http://tympanus.net/codrops/css_reference/)
+* [CSS @ Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [HTML Styles - CSS @ w3schools](http://www.w3schools.com/html/html_css.asp)
+* [CSS Tutorial @ w3schools](http://www.w3schools.com/css/default.asp)
+* [CSS Reference](http://tympanus.net/codrops/css_reference/)
 
 #### Tools
 
-- [Sass](http://sass-lang.com/)
-- [Compass](http://compass-style.org/)
-- [less](http://lesscss.org/)
+* [Sass](http://sass-lang.com/)
+* [Compass](http://compass-style.org/)
+* [less](http://lesscss.org/)
 
 
-Basics
-------
+## Basics
 
 Styling can be added to HTML elements in 3 ways:
 
@@ -87,11 +84,9 @@ Use `id` to address a single element (`element#id`). Use `class` to address grou
 
 `selector {property:value;}` e.g. `h1 {color:blue; font-size:12px;}`
 
-CSS Selectors
--------------
+## CSS Selectors
 
-Important Properties
---------------------
+## Important Properties
 
 display
 
