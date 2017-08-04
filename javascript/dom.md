@@ -24,3 +24,11 @@ elements/property/value
 At least in HTML5 and element `id` is a _global variable_. So you can access it as either `window.ID` or by name (e.g. ID) as a global.
 
 
+---
+
+document.querySelector()
+document.querySelectorAll()
+
+NodeList
+
+Node.children returns HTMLCollection

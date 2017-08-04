@@ -1,5 +1,4 @@
-jQuery
-======
+# jQuery
 
 
 ### Links
@@ -24,8 +23,7 @@ Verify but I think that if providing a function as a parameter to jquery no `()`
 
 ---
 
-jQuery Basics
--------------
+## jQuery Basics
 
 
 `jQuery()` or `$()`
@@ -36,8 +34,7 @@ Working with [dimensions](http://www.w3schools.com/jquery/jquery_dimensions.asp)
 ![dimensions](http://www.w3schools.com/jquery/img_jquerydim.gif)
 
 
-jQuery Reference
-----------------
+## jQuery Reference
 
 
 ### [`.click()`]()
@@ -68,5 +65,11 @@ Compare to `.css("width")`
 
 See also [`.position()`](https://api.jquery.com/position/) and [`.offset()`](https://api.jquery.com/offset/)
 
-###
+### Etc
+
+$('document').html()
+
+? var $name
+
+Note `.nextUntil()`, which I could not find a good alternative for...
 

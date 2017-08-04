@@ -1,8 +1,6 @@
-Web Fonts
-=========
+# Web Fonts
 
-
-- [Google Fonts](https://www.google.com/fonts) / [Google Fonts API](https://developers.google.com/fonts/)
+* [Google Fonts](https://www.google.com/fonts) / [Google Fonts API](https://developers.google.com/fonts/)
 
 
 link tag

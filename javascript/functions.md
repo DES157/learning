@@ -2,11 +2,30 @@
 
 ## Defining Functions
 
-* function statement (function declaration)
+* function declaration (function statement)
 * function expression (incl. named function expressions and anonymous function expressions)
-* arrow function expression (`=>`)
+* arrow function expression (`=>`) --- ES6; doe not bind `this`!
 
 I thought I'd written about these elsewhere but can't find it!
+
+
+#### Function Declaration
+
+A [function declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function) creates a `Function` object. Is hoisted.
+
+    function name([param,[, param,[..., param]]]) {
+      [statements]
+    }
+
+
+
+#### Function Expression
+
+A [function expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function) can be stored in a variable. Use named function expression e.g. if you need recursion. Not hoisted.
+
+    var myFunction = function [name]([param1[, param2[, ..., paramN]]]) {
+      statements
+    };
 
 
 ## Function Basics
