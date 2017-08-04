@@ -1,11 +1,9 @@
-Javascript
-==========
+# Javascript
 
 ---
 
 
-Links
------
+## Links
 
 - [Eloquent Javascript](http://eloquentjavascript.net/) read online
 
@@ -28,8 +26,7 @@ Links
 
 
 
-Basics
-------
+## Basics
 
 No types!
 
@@ -37,8 +34,7 @@ vs python?
 
 ---
 
-JavaScript Scope
-----------------
+## JavaScript Scope
 
 _closures_
 
@@ -54,15 +50,36 @@ vs
 - [Demystifying JavaScript Variable Scope and Hoisting](http://www.sitepoint.com/demystifying-javascript-variable-scope-hoisting/)
 
 
-JavaScript Methods
-------------------
+## JavaScript Methods
 
 `alert()`
 
 
-JavaScript Objects
-------------------
+## JavaScript Objects
 
 `window`
 
 `document`
+
+## JavaScript Functions
+
+* [Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions)
+* [Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) (*arrow function expressions*)
+
+function statements
+
+function expressions - not hoisted!
+
+IIFE
+
+foo = function () {};?
+
+
+## JavaScript Variables
+
+https://softwareengineering.stackexchange.com/questions/274342/is-there-any-reason-to-use-the-var-keyword-in-es6
+
+var? function scope
+let? block scope, and not available before declaration
+nothing bubbles up and attaches
+

@@ -43,6 +43,11 @@ JavaScript **object literal notation** are comma-separeted lists of colon-separa
 
 * [jq](https://stedolan.github.io/jq/) - command-line json processor; play with it in the browser [here](https://jqplay.org/).
 
+    * '.' is 
+    * `|` to connect filters
+    * `{}` to make objects
+    * `[]` to make arrays
+
 #### JSON Tools in Python
 
 * [json](https://docs.python.org/3/library/json.html) module in the Python Standard Library
