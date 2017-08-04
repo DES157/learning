@@ -110,8 +110,7 @@ A simpler alternative to SOAP. Typically uses HTTP, and was developed in paralle
 * [PHP](https://php.net)
 
 
-Tools
------
+## Tools
 
 ### Python
 
@@ -123,3 +122,9 @@ Tools
 * `utils::download.file()` : `method = "libcurl"` is optionally supported as from R 3.2.0
 
 * [Getting Data from the Web with R (Gaston Sanchez)](http://gastonsanchez.com/work/webdata)
+
+## Compatibility
+
+* [Can I use](http://caniuse.com/#home)
+
+Standard?
