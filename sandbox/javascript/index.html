@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Building The DOM</title>
+</head>
+
+<body>
+    <h1>Building The DOM With JavaScript</h1>
+
+
+
+
+<section>
+    <h1>JavaScript Basics</h1>
+    
+    getElementByID()
+    getElementsByTagName()
+    
+    Element.outerHTML
+    Element.innerHTML
+    
+    jQuery has text() returns the text content (minus markup) and html() (gets entire innerHTML). These and others can be used to set or return content.
+    
+</section>
+
+
+    
+<section>
+    <h1>jQuery Basics</h1>
+    
+    
+html()?
+
+You get a jQuery object then you can dereferencing operator or .get() to retrieve the DOM object. E.g VAR[0].value() or VAR.get(0).value
+The get() method also allos direct access to underlying DOM objects. See the simlariy load() AJAX method, wich can easily load data from a server into an element.
+    
+</section>
+    
+
+<section>
+    
+Integrate: insertBefore(), appendChild(), etc.
+
+    
+
+So you want to create elements from scratch. In pure JavaScript the workhorse is createElement(). While jQuery does not have an exact equivalent you can create nodes in several ways. As of jQuery 1.8 it's preferred to use jQuery.parseHTML() (equivalently $.parseHTML())
+jQuery has document.createElement() or $('<div>') or $('<div>,</div>'). Then appendTo().
+
+See https://stackoverflow.com/questions/268490/jquery-document-createelement-equivalent for good examples.
+    
+.append()
+.prepend()
+.before()
+.after()
+
+E.g.
+
+<pre><code><this.$OuterDiv = $('<div></div>')
+    .hide()
+    .append($('<table></table>')
+        .attr({ cellSpacing : 0 })
+        .addClass("text")
+    )
+;/code><pre>
+
+
+</section>
+
+
+
+</body>
+
+</html>
