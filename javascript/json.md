@@ -55,5 +55,6 @@ JavaScript **object literal notation** are comma-separeted lists of colon-separa
 
 ## JSON References
 
+* [Working with JSON data](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)
 * [An Introduction to JavaScript Object Notation (JSON) in JavaScript and .NET](https://msdn.microsoft.com/en-us/library/bb299886.aspx)
 

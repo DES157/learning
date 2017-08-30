@@ -3,6 +3,13 @@
 
 * [`Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
+
+`Array.forEach()`
+
+.every
+
+.some
+
 ## Etc
 
 [NodeList](https://developer.mozilla.org/en-US/docs/Web/API/NodeList)

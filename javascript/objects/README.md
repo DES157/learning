@@ -1,5 +1,7 @@
 # JavaScript Objects
 
+* [Working with objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
+* [Introducing JavaScript objects](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects) including working with JSON
 
 How to declare objects?
 

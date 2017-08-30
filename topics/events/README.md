@@ -50,3 +50,16 @@ Return [`KeyboardEvent`](https://developer.mozilla.org/en-US/docs/Web/API/Keyboa
 ## Considerations
 
 throttle and debounce!
+
+## Binding callbacks
+
+1. As html attribute
+
+        <button type="button" onclick="myFunction()">Button Name</button>
+
+2. assign to DOM, eg element.onclick =
+
+3. addEventListener
+
+4. ...?
+
