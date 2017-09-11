@@ -2,6 +2,11 @@
 
 ---
 
+https://www.ecma-international.org/publications/standards/Ecma-262.htm
+
+http://exploringjs.com/
+
+
 
 ## Links
 
