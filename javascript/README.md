@@ -1,33 +1,32 @@
 # Javascript
 
----
-
-https://www.ecma-international.org/publications/standards/Ecma-262.htm
-
-http://exploringjs.com/
-
-
-
 ## Links
 
-- [Eloquent Javascript](http://eloquentjavascript.net/) read online
+### Reference
+
+* [ECMAScript® 2017 Language Specification](https://www.ecma-international.org/publications/standards/Ecma-262.htm)
+* [JavaScript @ Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+### Learning
+
+* [CreativeJS](http://creativejs.com/) - nice 
 
 
-##### Learning
+* [JavaScript Road Trip Part 1](https://www.codeschool.com/courses/javascript-road-trip-part-1)
+* [JavaScript Lessons @egghead](https://egghead.io/technologies/js)
+* [JavaScript Learning](http://codepen.io/collection/paujy/) - someone's demos on CodePen.
 
-- [CreativeJS](http://creativejs.com/) - nice 
-- [JavaScript @ Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [NodeSchool](http://nodeschool.io/) - awesomeawesome tutorials and local gatherings
 
-- [JavaScript Road Trip Part 1](https://www.codeschool.com/courses/javascript-road-trip-part-1)
-- [JavaScript Lessons @egghead](https://egghead.io/technologies/js)
-- [JavaScript Learning](http://codepen.io/collection/paujy/) - someone's demos on CodePen.
+#### Books
 
-- [NodeSchool](http://nodeschool.io/) - awesomeawesome tutorials and local gatherings
-- [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS) - dummies books free online
+* [Exploring JS](http://exploringjs.com/) - excellent free books!
+* [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS) - dummies books free online
+* [Eloquent Javascript](http://eloquentjavascript.net/) read online
 
-##### Style
+#### Style
 
-- [Principles of Writing Consistent, Idiomatic JavaScript](https://github.com/rwaldron/idiomatic.js/)
+* [Principles of Writing Consistent, Idiomatic JavaScript](https://github.com/rwaldron/idiomatic.js/)
 
 
 
@@ -51,8 +50,8 @@ vs
 
 ##### Reference
 
-- [Everything you wanted to know about JavaScript scope](https://toddmotto.com/everything-you-wanted-to-know-about-javascript-scope/)
-- [Demystifying JavaScript Variable Scope and Hoisting](http://www.sitepoint.com/demystifying-javascript-variable-scope-hoisting/)
+* [Everything you wanted to know about JavaScript scope](https://toddmotto.com/everything-you-wanted-to-know-about-javascript-scope/)
+* [Demystifying JavaScript Variable Scope and Hoisting](http://www.sitepoint.com/demystifying-javascript-variable-scope-hoisting/)
 
 
 ## JavaScript Methods
@@ -87,4 +86,8 @@ https://softwareengineering.stackexchange.com/questions/274342/is-there-any-reas
 var? function scope
 let? block scope, and not available before declaration
 nothing bubbles up and attaches
+
+## Etc
+
+* [CoffeeScript](http://coffeescript.org/)
 
