@@ -27,6 +27,8 @@ See additional documentation:
 
 > HTTP defines methods (sometimes referred to as verbs) to indicate the desired action to be performed on the identified resource. What this resource represents, whether pre-existing data or data that is generated dynamically, depends on the implementation of the server. Often, the resource corresponds to a file or the output of an executable residing on the server. The HTTP/1.0 specification[12] defined the GET, POST and HEAD methods and the HTTP/1.1 specification[13] added 5 new methods: OPTIONS, PUT, DELETE, TRACE and CONNECT
 
+* [A Beginner’s Guide to HTTP and REST](https://code.tutsplus.com/tutorials/a-beginners-guide-to-http-and-rest--net-16340)
+
 
 ### HTTP 1.1
 
@@ -73,7 +75,6 @@ HEAD | Return only the response headers and no response body. | Safe
 ### HTTPS
 
 
-
 `POST` `GET` ...
 
 ## Protocols
@@ -86,6 +87,7 @@ REST = Representational State Transfer
 
 A simpler alternative to SOAP. Typically uses HTTP, and was developed in parallel with HTTP 1.1.
 
+* [Learn REST: A RESTful Tutorial](http://www.restapitutorial.com/)
 * [RESTful Web Services: A Tutorial](http://www.drdobbs.com/web-development/restful-web-services-a-tutorial/240169069)
 * [Learn REST: A Tutorial](http://rest.elkstein.org/)
 * [RESTful Web Services: The Basics](http://www.ibm.com/developerworks/library/ws-restful/)

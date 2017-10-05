@@ -34,6 +34,8 @@ function scope...
 
 ## Closures
 
+Note `var that = this;` hack, and how to get around it using arrow functions! [ref](https://stackoverflow.com/q/4886632/2762964)
+
 ## Callbacks
 
 Is there a difference of using anonymous functions or named functions? In terms of scope/closure?
