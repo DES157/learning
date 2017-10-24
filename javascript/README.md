@@ -4,8 +4,12 @@
 
 ### Reference
 
-* [ECMAScript® 2017 Language Specification](https://www.ecma-international.org/publications/standards/Ecma-262.htm)
+* [ECMAScript 2017 Language Specification](https://www.ecma-international.org/publications/standards/Ecma-262.htm)
 * [JavaScript @ Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+#### EMCAScript 2015 (6th Edition)
+
+* [EMCAScript 6 - New Features: Overview & Comparison](http://es6-features.org/)
 
 ### Learning
 
@@ -28,6 +32,9 @@
 
 * [Principles of Writing Consistent, Idiomatic JavaScript](https://github.com/rwaldron/idiomatic.js/)
 
+### Tools
+
+* [Babel](https://babeljs.io/)
 
 
 ## Basics
