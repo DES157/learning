@@ -1,8 +1,8 @@
 # Web
 
-See additional documentation:
+About the web:
 
 * [HTML](html)
 * [CSS](css)
-* [XML](etc/xml.md)
-* [JSON](javascript/json.md)
+* [JavaScript](javascript)
+* [etc](etc)
