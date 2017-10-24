@@ -1,6 +1,4 @@
-CSS Positioning
-===============
-
+# CSS Positioning
 
 `position: static|absolute|fixed|relative|initial|inherit;`
 

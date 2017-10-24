@@ -1,6 +1,5 @@
 # CSS
 
-
 ? lists horizonal? inline-block/inline or 
 
 overflow
@@ -9,21 +8,17 @@ overflow
 
 ---
 
-- [CSS @Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [CSS @Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 ---
 
 standard page widths, retina displays, breakpoints
 
-
-
 ##### Comments
 
     /* ... */
 
-
 ## CSS Syntax
-
 
 A CSS *ruleset* consists of a *selector* and a *declaration block*. The declaration block contains 
 
@@ -32,19 +27,13 @@ A CSS *ruleset* consists of a *selector* and a *declaration block*. The declarat
         ...
     }
 
-
-
 Big ideas: display, position
-
-
 
 ### CSS Selectors
 
 See [Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Selectors)
 
 ###### Multiple selectors
-
-``
 
 ###### Basic Selectors
 
@@ -63,15 +52,8 @@ Attribute | `[attr=value]`
 * adjacent sibling selector (+)
 * general sibling selector (~)
 
-
-
 * `:pseudo-class`
 * `::pseudo-element`
-
-
-
-
-
 
 comma?
 
@@ -79,7 +61,6 @@ comma?
     body {
         margin: 0;
     }
-
 
 
 ## Box Model
@@ -100,15 +81,14 @@ comma?
     * content-box / css standard, content only
     * border-box / content+padding+border, exclude margin
 
-
 ## Layout
 
 % sizing is relative to parent, but if parent not sized it's problematic, esp. with height, but width will probably work. setting width/height of html and body will allow setting 100%, but consider vw/vh/vmin/vmax
 
 overflowing? read up on overflow css, and
-- inline-block may work?
-- wrapper overflow: hidden?
 
+* inline-block may work?
+* wrapper overflow: hidden?
 
 * float: (all elements) take out of flow!
     * none, left, right
@@ -144,7 +124,6 @@ overflowing? read up on overflow css, and
 
 note: margin: auto; way of centering does not work with 
 
-
 * position: (all elements)
     * static
         * default, in flow, can not specify top/bottom/left/right
@@ -155,7 +134,6 @@ note: margin: auto; way of centering does not work with
     * fixed ("absolutely positioned element")
         * take out of flow, position relative to viewport, does not scroll, also technically called absolutely positioned element
 
-
 position | comments | top/bottom/left/right
 ---------|----------|----------------------
 static   || no
@@ -163,13 +141,11 @@ relative ||
 absolute | can **not** center by margin: auto; |
 fixed    ||
 
-
 >The top, right, bottom, and left properties specify the position of positioned elements.
 
 >For absolutely positioned elements (those with position: absolute or position: fixed), it specifies the distance between the top margin edge of the element and the top edge of its containing block.
 
 >For relatively positioned elements (those with position: relative), it specifies the amount the element is moved below its normal position.
-
 
     div {
         position: ?;
@@ -186,9 +162,7 @@ absolute position takes out of flow, so not much sense to use it with display in
 
 review: margins don't make much sense with absolute positioning (and I suppose fixed as well), althought I think they technically have them, also note that they do not collapse with other margins fwiw.
 
-
 Negative margins: top/left pull element, bottom/right move succeeding elements.
-
 
 ## Text Sizing
 
@@ -219,7 +193,6 @@ e.g.
 
 ...
 
-
 ## Color
 
 opacity normally is inherited by children, but if you want a transparent background with fully opaque children/text now in css3 on the container you can specify alpha with `rgba(r,g,b,a)`, alternatively you can style `thing::before` with rgba (look into how opacity combines with rgba if you use both! it seems that you can reduce either and still get full opacity on at least text.) the before technique may not suffer from inheritance since you are actually placing a child element! (i think should be absolutely positioned)  see https://codepen.io/spencermathews/pen/QdVNqj and some page that links to it.
@@ -240,11 +213,9 @@ Another, perhaps preferred alternative, which still suffers from the issue of % 
 
     body { height: 100vh; }
 
-
 There may be issues with overflow and scroll bars.
 
 Note that html and body both default to width/height of auto.
-
 
 From [height @ MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/height) :
 
@@ -270,7 +241,6 @@ Quick that height is treated somewhat differently than width, exp wrt parent ele
 body { height: 100vh; } may help expand page? maybe min-height: 100vh?
 
 Note that `position: absolute` can influence whether/how % will work.
-
 
 background-color
 

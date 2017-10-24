@@ -2,7 +2,6 @@
 
 what are sprites?
 
-
 ## Links
 
 * [CSS @ Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -15,7 +14,6 @@ what are sprites?
 * [Sass](http://sass-lang.com/)
 * [Compass](http://compass-style.org/)
 * [less](http://lesscss.org/)
-
 
 ## Basics
 
@@ -37,7 +35,6 @@ Use the CSS padding property for space inside the border
 Use the CSS margin property for space outside the border
 
 ### Internal Styling (Internal CSS)
-
 
     <!DOCTYPE html>
     <html>
