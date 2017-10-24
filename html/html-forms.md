@@ -1,6 +1,4 @@
-HTML Forms
-==========
-
+# HTML Forms
 
 ### Input
 
@@ -20,12 +18,10 @@ There are additional HTML5 types!
 
 <>
 
-
 #### Javascript
 
 `document.getElementByID()`
 
 `document.form.length`
-
 
 form.name.value

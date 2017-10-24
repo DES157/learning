@@ -1,11 +1,10 @@
 # HTML Classes
 
-
 ##### Add/remove classes using JavaScript or jQuery
 
 ###### JavaScript
 
-- `classList` property of elements
+* `classList` property of elements
     - `contains()`
     - `add()`
     - `remove()`
@@ -21,10 +20,10 @@ e.g.
 
 ###### jQuery
 
-- `hasClass()`
-- `addClass()`
-- `removeClass()`
-- `toggleClass()`
+* `hasClass()`
+* `addClass()`
+* `removeClass()`
+* `toggleClass()`
 
 e.g.
 
@@ -33,6 +32,5 @@ e.g.
     $("#id1").addClass("class2");
     $("#id1").toggleClass("class1");
     
-
 ##### Add/remove classes using jQuery
 

@@ -1,41 +1,33 @@
-Responsive Web Design
----------------------
+# Responsive Web Design
 
-- [Responsive Web Design](http://www.w3schools.com/css/css_rwd_intro.asp)
-
+* [Responsive Web Design](http://www.w3schools.com/css/css_rwd_intro.asp)
 
 ## Images
 
 ##### Scale down
 
-```
-img {
-    max-width: 100%;
-    height: auto;
-}
-```
+    img {
+        max-width: 100%;
+        height: auto;
+    }
 
 ##### Scale up and down
 
-```
-img {
-    width: 100%;
-    height: auto;
-}
-```
+    img {
+        width: 100%;
+        height: auto;
+    }
 
 ##### Background
 
-```
-div {
-    width: 100%;
-    height: 400px;
-    background-image: url('img.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    border: 1px solid red;
-}
-```
+    div {
+        width: 100%;
+        height: 400px;
+        background-image: url('img.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: 1px solid red;
+    }
 
 
 

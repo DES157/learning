@@ -10,18 +10,13 @@ elements
 
 attributes/values / quote all attributes!!!
 
-
 some think like this is a good idea...
 
      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"/>
 
-
-
 The meta tag (because it's a *void element*) does not need closing `/` in HTML5. It does, however, in XHTML and earlier versions of HTML, to mark it as *self-closing*.
 
-
 ---
-
 
 ## Box Model
 
@@ -53,12 +48,9 @@ Block-level elements define a rectangular region. They try to be as wide as poss
 
 and then there's the issue of `float`...
 
-
-
 ## Elements
 
 [HTML Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
-
 
 #### Content *Categories*
 
@@ -72,7 +64,6 @@ HTML elements fall into zero or more categories [[ref](https://w3c.github.io/htm
 * Embedded content
 * Interactive content
 
-
 * `<main>` / at most one per document
 
 ### Sectioning Content
@@ -82,16 +73,11 @@ HTML elements fall into zero or more categories [[ref](https://w3c.github.io/htm
 * `<nav>` (HTML5)
 * `<aside>` (HTML5)
 
-
 ### Global Attributes
 
 [Global Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes)
 
-
 ## HTML5
-
-
-
 
 #### HTML5 Sectioning
 
@@ -104,16 +90,11 @@ Headings `<h1>`-`<h6>` define *implicit* sections (link to details). Outline det
 Sectioning roots ,`<blockquote>`, `<details>`, `<fieldset>`, `<figure>` and `<td>` can have their own outlines but do not contribute to outline of their ancestors.
 Compare that to `<aside>` and `<nav>` which are also outside the main outline.
 
-
 ---
-
 
 ## Load Order
 
-
 head? inline js? css?
-
-##
 
 Note DOMContentLoaded is on document, where load (.onload) is window.
 
@@ -131,11 +112,9 @@ Note `attachEvent` is nonstandard for IE5-8 and below, probably not necessary an
 
     window.attachEvent("onload"
 
-
 ## Forms
 
 how to access? document.formname... or 
 
-
-in a form button defaults typp="submit", but outside a form I don't think so.
+in a form button defaults type="submit", but outside a form I don't think so.
 

@@ -1,6 +1,4 @@
-HTML Objects
-============
-
+# HTML Objects
 
 use to embed multimedia objects, etc.
 

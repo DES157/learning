@@ -1,18 +1,13 @@
-Box Model
-=========
+# Box Model
 
 content
 padding
 border
 margin
 
+## TL;DR
 
-
-TL;DR
------
-
-
-Check he selectors, but you should always do something like this:
+Check the selectors, but you should always do something like this:
 
     *, *:before, *:after {
         -moz-box-sizing:border-box;
@@ -20,17 +15,11 @@ Check he selectors, but you should always do something like this:
         box-sizing:border-box
         }
 
-
-
-Details
--------
-
+## Details
 
 ### Box Sizing
 
-
 `border-box` - make width/height include content, border, and padding. So, for example, you can set `width: 100%` and still add padding and border.
-
 
 
 !FINISH THIS SOMETIME

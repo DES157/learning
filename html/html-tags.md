@@ -1,25 +1,20 @@
+# HTML Elements
 
 `<link>`
 
-
 _inline_ (e.g. `<span>)`vs _block_ (e.g `<div>`) tags/elements
-
 
 _element_ vs _tag_
 
 _attribute_ vs _property_
 
-
 ### Layout
 
-
-- `<p>`
-- `<br>`
-- `<pre>`
-
+* `<p>`
+* `<br>`
+* `<pre>`
 
 > The HTML `<span>` element is a generic inline container for phrasing content, which does not inherently represent anything. It can be used to group elements for styling purposes (using the `class` or `id` attributes), or because they share attribute values, such as `lang`. It should be used only when no other semantic element is appropriate. `<span>` is very much like a `<div>` element, but `<div>` is a block-level element whereas a `<span>` is an inline element.
-
 
 ### Text
 
@@ -31,15 +26,11 @@ _attribute_ vs _property_
 
 `<i>`, `<em>`, `<dfn>`
 
-
-
 `<tt>`
-
 
 `<small>`
 
 `<mark>`
-
 
 `<del>` / `<ins>`
 
@@ -57,10 +48,6 @@ _attribute_ vs _property_
 
 `<address>`
 
-
-
-
-
 ##### Code
 
 For fixed letter size and spacing...
@@ -73,29 +60,21 @@ Enclose in `<pre>` block to preserve whitespace ane linebreaks! Can force wrappi
 
 The `<var>` tag defines a variable.
 
-
 #### Images
 
 `<img>`
 
-
 #### Phrase Tags
 
-
-```
-<em>	Renders as emphasized text
-<strong>	Defines important text
-<code>	Defines a piece of computer code
-<samp>	Defines sample output from a computer program
-<kbd>	Defines keyboard input
-<var>	Defines a variable
-```
+    <em>	Renders as emphasized text
+    <strong>	Defines important text
+    <code>	Defines a piece of computer code
+    <samp>	Defines sample output from a computer program
+    <kbd>	Defines keyboard input
+    <var>	Defines a variable
 
 Plus more!
 
-
-
-Atttributes
------------
+## Atttributes
 
 [HTML Global Attributes](http://www.w3schools.com/tags/ref_standardattributes.asp)

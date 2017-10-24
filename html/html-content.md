@@ -1,11 +1,8 @@
-HTML Content
-============
+# HTML Content
 
-- [Content Categories @ Mozilla](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories)
+* [Content Categories @ Mozilla](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories)
 
 See [Kinds of content](https://www.w3.org/TR/html5/dom.html#kinds-of-content) in the HTML5 specs.
-
-
 
 "content models"
 
@@ -19,12 +16,7 @@ span - inline by default, can force display:block
 
 a
 
-
-
-
-
 how float?
-
 
 ### Phrasing Content
 

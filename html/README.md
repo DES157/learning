@@ -1,10 +1,7 @@
 # HTML
 
-
-
 ? Canvas
 ? DOM
-
 
 ## Links
 
@@ -17,7 +14,6 @@
 ##### WebPlatform
 
 * [__Web Platform Docs__](http://docs.webplatform.org/wiki/Main_Page) - good reference!
-
 
 ##### W3C
 
@@ -32,35 +28,25 @@
     * [W3DevCampus](http://www.w3devcampus.com/)
     * [W3Cx](https://www.edx.org/school/w3cx) Free online courses from The World Wide Web Consortium (W3C)
 
-
 ##### Mozilla
 
-- [HTML @ Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML) - lots of good guides, references, and tutorials!
-
-
-
+* [HTML @ Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML) - lots of good guides, references, and tutorials!
 
 ## HTML Standards
 
 ### HTML
 
-
-
-
 ### XHTML
 
 After HTML4, but never really caught on.  HTML5 is the new thing.
-
 
 ### HTML5
 
 `<!DOCTYPE html>`
 
-
 ### Etc.
 
-- Read about [CSS](css.html)
-
+* Read about [CSS](css.html)
 
 ***
 
@@ -68,7 +54,6 @@ After HTML4, but never really caught on.  HTML5 is the new thing.
 
 HTML documents must start with a Document Type Declaration ("doctype"). These declare a Document Type Definition (DTD) to allow for parsing and validation by SGML tools. For HTML 4 (strict version of HTML 4.01) this would be:
 `<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">`. HTML5 is much simpler: `<!DOCTYPE html>`.
-
 
 *tags* and *attributes* which are name-value pairs (it's a good idea to quote attribute values). Note that *element* is a more semantic concept and generally refers to a start tag, end tag, and content.
 
@@ -98,7 +83,6 @@ HTML documents must start with a Document Type Declaration ("doctype"). These de
 
 `<!-- This is a comment -->`
 
-
 ***
 
 ## Quick Answers
@@ -113,10 +97,7 @@ Use CSS syntax in HTML5 since font tag is not supported:
 e.g. `<p style="color:red">`
 See here to pick colors by [name](http://www.w3schools.com/cssref/css_colornames.asp).
 
-
-
 Along the lines of Markdown is also [HAML](http://haml.info/) for generating (X)HTML. It is primarily Ruby, but also has bindings to Python, etc.
-
 
 ## HTML Tools
 
