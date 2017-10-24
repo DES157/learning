@@ -1,8 +1,44 @@
 # Web Tutorials and References
 
+## Links
+
+* [Mozilla Developer Network](https://developer.mozilla.org/en-US/) - great reference, tutorials, and other learning resources!
+* [W3C (World Wide Web Consortium)](http://www.w3.org/)
+* [W3Schools](http://www.w3schools.com/)
+
+##### Learning
+
+* [ECS 89H: Beginning Web Programming](http://web.cs.ucdavis.edu/~amenta/s15/ecs89h) (Nina Amenta)
+* [DevelopPHP](https://www.developphp.com/) - great resource on HTML, CSS, JavaScript, PHP!
+
 ##### Tutorials
 
 * [tutorials.jenkov.com](http://tutorials.jenkov.com/) has a nice selection of tutorials on HTML and CSS, including on SVG and Canvas. Additionally for Java and more.
+
+## Languages
+
+* [PHP](https://php.net)
+
+### Tools
+
+#### Python
+
+* [Requests](http://python-requests.org)
+
+#### R
+
+* [RCurl](http://www.omegahat.org/RCurl)
+* `utils::download.file()` : `method = "libcurl"` is optionally supported as from R 3.2.0
+
+* [Getting Data from the Web with R (Gaston Sanchez)](http://gastonsanchez.com/work/webdata)
+
+#### Compatibility
+
+* [Can I use](http://caniuse.com/#home)
+
+Standard?
+
+---
 
 ## SitePoint
 
