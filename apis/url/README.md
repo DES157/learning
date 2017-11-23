@@ -9,15 +9,25 @@
 * [Get Query String Parameters with JavaScript](https://davidwalsh.name/query-string-javascript)
 * https://www.sitepoint.com/get-url-parameters-with-javascript/
 
-
 ## URL
+
+`.href` ~ `.toString()`
 
 `.search` property (undocumented?) appears to just return search string, including `?` --- may be from an old api related to window.location.search?
 
 `.searchParams` returns a URLSearchParams object
 
+`origin` readonly
+
+`hostname`
+
+`pathname`
 
 ## URLSearchParams
+
+Inspect using `.toString()`. Can get iterators using `entries()`, `keys()`, and `values()`.
+
+has()
 
 get()/getAll()
 
@@ -29,5 +39,5 @@ delete()
 
 sort()
 
-toString()
+
 

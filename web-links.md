@@ -5,6 +5,7 @@
 * [Mozilla Developer Network](https://developer.mozilla.org/en-US/) - great reference, tutorials, and other learning resources!
 * [W3C (World Wide Web Consortium)](http://www.w3.org/)
 * [W3Schools](http://www.w3schools.com/)
+* [Web Fundamentals](https://developers.google.com/web/fundamentals/) by Google
 
 ##### Learning
 

@@ -1,3 +1,7 @@
+
+scope and hoisting to top of scope
+lots to consider, variable declarations and function declarations note named function expressions are not hoisted!
+
 javascript learn
 
 objects and prototypes
@@ -11,3 +15,23 @@ forms
 iframe
 
 getComputedStyle
+
+
+API:
+
+history
+
+
+
+functions as part of class can omit function() and just say  foo() {}?
+
+
+
+
+Examples:
+
+horizontal nav list
+
+centering
+
+es6 modules and import statement

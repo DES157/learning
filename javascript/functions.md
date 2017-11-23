@@ -18,7 +18,6 @@ A [function declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript
     }
 
 
-
 #### Function Expression
 
 A [function expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function) can be stored in a variable. Use named function expression e.g. if you need recursion. Not hoisted.
@@ -27,6 +26,13 @@ A [function expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/
       statements
     };
 
+#### Arrow Functions
+
+if multiple arguments need ()
+
+if multiple staments need {}, otherwise implicit return (and must enclose in `()` to return an object literal).
+
+Unlike other functions, `this` retains value of enclosing lexical context.
 
 ## Function Basics
 

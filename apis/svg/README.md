@@ -1,3 +1,5 @@
+# SVG
+
 https://developer.mozilla.org/en-US/docs/Web/SVG
 https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial
 
@@ -11,3 +13,18 @@ https://www.w3.org/TR/SVG11/
 https://www.w3.org/TR/SVG2/
 
 https://www.w3.org/Graphics/SVG/WG/wiki/Secret_Origin_of_SVG
+
+## Shapes and stuff
+
+tags: `<svg>` `<g>`
+
+* line
+* rect
+* ellipse
+* path
+* polygon
+* polyline
+
+#### rect
+
+Attributes: x, y, width, height, rx, ry

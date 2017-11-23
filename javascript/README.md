@@ -13,14 +13,12 @@
 
 ### Learning
 
-* [CreativeJS](http://creativejs.com/) - nice 
-
-
+* [CreativeJS](http://creativejs.com/) - nice
 * [JavaScript Road Trip Part 1](https://www.codeschool.com/courses/javascript-road-trip-part-1)
 * [JavaScript Lessons @egghead](https://egghead.io/technologies/js)
 * [JavaScript Learning](http://codepen.io/collection/paujy/) - someone's demos on CodePen.
-
 * [NodeSchool](http://nodeschool.io/) - awesomeawesome tutorials and local gatherings
+* [Getting Started with JavaScript for Web Development @ scotch](https://scotch.io/courses/getting-started-with-javascript), scotch also has nice [Tutorials](https://scotch.io/tutorials) and a [10 Need to Know JavaScript Concepts](https://scotch.io/courses/10-need-to-know-javascript-concepts) course. Many other courses are not free.
 
 #### Books
 
